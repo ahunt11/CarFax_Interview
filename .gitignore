@@ -1,2 +1,4 @@
 .DS_Store
 Carthage/
+Cartfile.resolved
+*.xcuserstate

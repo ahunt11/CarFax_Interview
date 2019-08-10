@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7962985C22FCF9CC00475EB3 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985722FCF9CC00475EB3 /* RxTest.framework */; };
+		7962985D22FCF9CC00475EB3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; };
+		7962985E22FCF9CC00475EB3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; };
+		7962985F22FCF9CC00475EB3 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985A22FCF9CC00475EB3 /* RxBlocking.framework */; };
+		7962986022FCF9CC00475EB3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; };
+		7962986122FCF9E600475EB3 /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985A22FCF9CC00475EB3 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986222FCF9E600475EB3 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986322FCF9E600475EB3 /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986422FCF9E600475EB3 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986522FCF9E600475EB3 /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985722FCF9CC00475EB3 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986622FCFA4300475EB3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; };
+		7962986722FCFA4300475EB3 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986822FCFA4300475EB3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; };
+		7962986922FCFA4300475EB3 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7962986A22FCFA4300475EB3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; };
+		7962986B22FCFA4300475EB3 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79B8664A22FCEDDC00ADFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8664922FCEDDC00ADFEE9 /* AppDelegate.swift */; };
 		79B8664C22FCEDDC00ADFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8664B22FCEDDC00ADFEE9 /* ViewController.swift */; };
 		79B8664F22FCEDDC00ADFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B8664D22FCEDDC00ADFEE9 /* Main.storyboard */; };
 		79B8665122FCEDDD00ADFEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B8665022FCEDDD00ADFEE9 /* Assets.xcassets */; };
 		79B8665422FCEDDD00ADFEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B8665222FCEDDD00ADFEE9 /* LaunchScreen.storyboard */; };
 		79B8665F22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8665E22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift */; };
+		79B8668622FCF17100ADFEE9 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8668522FCF17100ADFEE9 /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +42,42 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		79B8667D22FCF0E900ADFEE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7962986922FCFA4300475EB3 /* RxRelay.framework in Embed Frameworks */,
+				7962986722FCFA4300475EB3 /* RxCocoa.framework in Embed Frameworks */,
+				7962986B22FCFA4300475EB3 /* RxSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B8668C22FCF50300ADFEE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7962986122FCF9E600475EB3 /* RxBlocking.framework in CopyFiles */,
+				7962986222FCF9E600475EB3 /* RxCocoa.framework in CopyFiles */,
+				7962986322FCF9E600475EB3 /* RxRelay.framework in CopyFiles */,
+				7962986422FCF9E600475EB3 /* RxSwift.framework in CopyFiles */,
+				7962986522FCF9E600475EB3 /* RxTest.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7962985722FCF9CC00475EB3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/Static/RxTest.framework; sourceTree = "<group>"; };
+		7962985822FCF9CC00475EB3 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/Static/RxSwift.framework; sourceTree = "<group>"; };
+		7962985922FCF9CC00475EB3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/Static/RxCocoa.framework; sourceTree = "<group>"; };
+		7962985A22FCF9CC00475EB3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/Static/RxBlocking.framework; sourceTree = "<group>"; };
+		7962985B22FCF9CC00475EB3 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/Static/RxRelay.framework; sourceTree = "<group>"; };
 		79B8664622FCEDDC00ADFEE9 /* CarFaxInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarFaxInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B8664922FCEDDC00ADFEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B8664B22FCEDDC00ADFEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +88,7 @@
 		79B8665A22FCEDDD00ADFEE9 /* CarFaxInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarFaxInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B8665E22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFaxInterviewTests.swift; sourceTree = "<group>"; };
 		79B8666022FCEDDD00ADFEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B8668522FCF17100ADFEE9 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7962986822FCFA4300475EB3 /* RxRelay.framework in Frameworks */,
+				7962986622FCFA4300475EB3 /* RxCocoa.framework in Frameworks */,
+				7962986A22FCFA4300475EB3 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +106,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7962985C22FCF9CC00475EB3 /* RxTest.framework in Frameworks */,
+				7962985D22FCF9CC00475EB3 /* RxSwift.framework in Frameworks */,
+				7962985E22FCF9CC00475EB3 /* RxCocoa.framework in Frameworks */,
+				7962985F22FCF9CC00475EB3 /* RxBlocking.framework in Frameworks */,
+				7962986022FCF9CC00475EB3 /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +123,8 @@
 				79B8664822FCEDDC00ADFEE9 /* CarFaxInterview */,
 				79B8665D22FCEDDD00ADFEE9 /* CarFaxInterviewTests */,
 				79B8664722FCEDDC00ADFEE9 /* Products */,
+				79B8666922FCF0BF00ADFEE9 /* Frameworks */,
+				79D4E26822FCF5A600CDE623 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +155,28 @@
 			children = (
 				79B8665E22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift */,
 				79B8666022FCEDDD00ADFEE9 /* Info.plist */,
+				79B8668522FCF17100ADFEE9 /* Sample.swift */,
 			);
 			path = CarFaxInterviewTests;
+			sourceTree = "<group>";
+		};
+		79B8666922FCF0BF00ADFEE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7962985A22FCF9CC00475EB3 /* RxBlocking.framework */,
+				7962985922FCF9CC00475EB3 /* RxCocoa.framework */,
+				7962985B22FCF9CC00475EB3 /* RxRelay.framework */,
+				7962985822FCF9CC00475EB3 /* RxSwift.framework */,
+				7962985722FCF9CC00475EB3 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79D4E26822FCF5A600CDE623 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +189,7 @@
 				79B8664222FCEDDC00ADFEE9 /* Sources */,
 				79B8664322FCEDDC00ADFEE9 /* Frameworks */,
 				79B8664422FCEDDC00ADFEE9 /* Resources */,
+				79B8667D22FCF0E900ADFEE9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +207,7 @@
 				79B8665622FCEDDD00ADFEE9 /* Sources */,
 				79B8665722FCEDDD00ADFEE9 /* Frameworks */,
 				79B8665822FCEDDD00ADFEE9 /* Resources */,
+				79B8668C22FCF50300ADFEE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -207,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B8665F22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift in Sources */,
+				79B8668622FCF17100ADFEE9 /* Sample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +447,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
+				);
 				INFOPLIST_FILE = CarFaxInterview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +468,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
+				);
 				INFOPLIST_FILE = CarFaxInterview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,11 +490,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
+				);
 				INFOPLIST_FILE = CarFaxInterviewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.depaul.CarFaxInterviewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,11 +515,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
+				);
 				INFOPLIST_FILE = CarFaxInterviewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.depaul.CarFaxInterviewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
