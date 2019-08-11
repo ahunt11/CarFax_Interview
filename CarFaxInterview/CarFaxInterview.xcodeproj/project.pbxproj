@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794C6AB522FF831100ACF3E5 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C6AB422FF831100ACF3E5 /* VehicleModel.swift */; };
+		794C6AB722FF83FE00ACF3E5 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C6AB622FF83FE00ACF3E5 /* PageData.swift */; };
+		794C6AB922FF954100ACF3E5 /* PageData_Incomplete.json in Resources */ = {isa = PBXBuildFile; fileRef = 794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */; };
 		7962985C22FCF9CC00475EB3 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985722FCF9CC00475EB3 /* RxTest.framework */; };
 		7962985D22FCF9CC00475EB3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; };
 		7962985E22FCF9CC00475EB3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; };
@@ -23,6 +26,7 @@
 		7962986922FCFA4300475EB3 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7962986A22FCFA4300475EB3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; };
 		7962986B22FCFA4300475EB3 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7968526722FEAAF4004C5E52 /* VehicleListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968526622FEAAF4004C5E52 /* VehicleListService.swift */; };
 		79B8664A22FCEDDC00ADFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8664922FCEDDC00ADFEE9 /* AppDelegate.swift */; };
 		79B8664C22FCEDDC00ADFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8664B22FCEDDC00ADFEE9 /* ViewController.swift */; };
 		79B8664F22FCEDDC00ADFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B8664D22FCEDDC00ADFEE9 /* Main.storyboard */; };
@@ -73,11 +77,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		794C6AB422FF831100ACF3E5 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		794C6AB622FF83FE00ACF3E5 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PageData_Incomplete.json; sourceTree = "<group>"; };
 		7962985722FCF9CC00475EB3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/Static/RxTest.framework; sourceTree = "<group>"; };
 		7962985822FCF9CC00475EB3 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/Static/RxSwift.framework; sourceTree = "<group>"; };
 		7962985922FCF9CC00475EB3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/Static/RxCocoa.framework; sourceTree = "<group>"; };
 		7962985A22FCF9CC00475EB3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/Static/RxBlocking.framework; sourceTree = "<group>"; };
 		7962985B22FCF9CC00475EB3 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/Static/RxRelay.framework; sourceTree = "<group>"; };
+		7968526622FEAAF4004C5E52 /* VehicleListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListService.swift; sourceTree = "<group>"; };
 		79B8664622FCEDDC00ADFEE9 /* CarFaxInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarFaxInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B8664922FCEDDC00ADFEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B8664B22FCEDDC00ADFEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +154,10 @@
 				79B8665022FCEDDD00ADFEE9 /* Assets.xcassets */,
 				79B8665222FCEDDD00ADFEE9 /* LaunchScreen.storyboard */,
 				79B8665522FCEDDD00ADFEE9 /* Info.plist */,
+				7968526622FEAAF4004C5E52 /* VehicleListService.swift */,
+				794C6AB422FF831100ACF3E5 /* VehicleModel.swift */,
+				794C6AB622FF83FE00ACF3E5 /* PageData.swift */,
+				794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */,
 			);
 			path = CarFaxInterview;
 			sourceTree = "<group>";
@@ -262,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794C6AB922FF954100ACF3E5 /* PageData_Incomplete.json in Resources */,
 				79B8665422FCEDDD00ADFEE9 /* LaunchScreen.storyboard in Resources */,
 				79B8665122FCEDDD00ADFEE9 /* Assets.xcassets in Resources */,
 				79B8664F22FCEDDC00ADFEE9 /* Main.storyboard in Resources */,
@@ -284,6 +297,9 @@
 			files = (
 				79B8664C22FCEDDC00ADFEE9 /* ViewController.swift in Sources */,
 				79B8664A22FCEDDC00ADFEE9 /* AppDelegate.swift in Sources */,
+				794C6AB722FF83FE00ACF3E5 /* PageData.swift in Sources */,
+				794C6AB522FF831100ACF3E5 /* VehicleModel.swift in Sources */,
+				7968526722FEAAF4004C5E52 /* VehicleListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
