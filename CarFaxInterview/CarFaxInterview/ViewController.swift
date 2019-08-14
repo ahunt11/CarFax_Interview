@@ -7,12 +7,35 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    private let vehicleListViewModel: VehicleListViewable = VehicleListViewModel()
+    private let bag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        tableView.register(UINib(nibName: VehicleDataTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: VehicleDataTableViewCell.identifier)
+        
+        vehicleListViewModel.fetchListOfVehicles()
+            .concatMap{ [weak self] (models: [VehicleModel]) -> Observable<[VehicleModelWithImage]> in
+                guard let self = self else{ return .empty()}
+                return self.vehicleListViewModel.fetchVehicleModelsWithImages(vehicleModels: models)
+            }
+            .bind(to: tableView.rx.items(cellIdentifier: VehicleDataTableViewCell.identifier, cellType: VehicleDataTableViewCell.self)) { (row: Int, element: VehicleModelWithImage, cell: VehicleDataTableViewCell) -> Void in
+                cell.setupLayout(vehicleModel: element)
+                cell.phoneNumberButton.rx.tap
+                    .subscribe(onNext: {
+                        if let number = cell.phoneNumberButton.titleLabel?.text,
+                            let url = URL(string: "tel://\(number)") {
+                            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        }
+                    }).disposed(by: cell.bag)
+        }.disposed(by: bag)
     }
 
 

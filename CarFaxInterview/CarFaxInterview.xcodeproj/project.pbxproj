@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794C5EA42300BA2E00C10C9D /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C5EA32300BA2E00C10C9D /* MockURLProtocol.swift */; };
+		794C5EA62300C08A00C10C9D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C5EA52300C08A00C10C9D /* Endpoint.swift */; };
 		794C6AB522FF831100ACF3E5 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C6AB422FF831100ACF3E5 /* VehicleModel.swift */; };
 		794C6AB722FF83FE00ACF3E5 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C6AB622FF83FE00ACF3E5 /* PageData.swift */; };
 		794C6AB922FF954100ACF3E5 /* PageData_Incomplete.json in Resources */ = {isa = PBXBuildFile; fileRef = 794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */; };
+		794C738B23025D8500094C47 /* VehicleDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C738923025D8500094C47 /* VehicleDataTableViewCell.swift */; };
+		794C738C23025D8500094C47 /* VehicleDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794C738A23025D8500094C47 /* VehicleDataTableViewCell.xib */; };
+		794C738E2303642700094C47 /* VehicleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C738D2303642700094C47 /* VehicleListViewModel.swift */; };
+		794C73902303916F00094C47 /* VehicleModelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C738F2303916F00094C47 /* VehicleModelWithImage.swift */; };
 		7962985C22FCF9CC00475EB3 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985722FCF9CC00475EB3 /* RxTest.framework */; };
-		7962985D22FCF9CC00475EB3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; };
-		7962985E22FCF9CC00475EB3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; };
 		7962985F22FCF9CC00475EB3 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985A22FCF9CC00475EB3 /* RxBlocking.framework */; };
-		7962986022FCF9CC00475EB3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; };
 		7962986122FCF9E600475EB3 /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985A22FCF9CC00475EB3 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7962986222FCF9E600475EB3 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7962986322FCF9E600475EB3 /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985B22FCF9CC00475EB3 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7962986422FCF9E600475EB3 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985822FCF9CC00475EB3 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7962986522FCF9E600475EB3 /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7962985722FCF9CC00475EB3 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7962986622FCFA4300475EB3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; };
 		7962986722FCFA4300475EB3 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7962985922FCF9CC00475EB3 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -32,8 +32,7 @@
 		79B8664F22FCEDDC00ADFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B8664D22FCEDDC00ADFEE9 /* Main.storyboard */; };
 		79B8665122FCEDDD00ADFEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B8665022FCEDDD00ADFEE9 /* Assets.xcassets */; };
 		79B8665422FCEDDD00ADFEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B8665222FCEDDD00ADFEE9 /* LaunchScreen.storyboard */; };
-		79B8665F22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8665E22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift */; };
-		79B8668622FCF17100ADFEE9 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8668522FCF17100ADFEE9 /* Sample.swift */; };
+		79B8668622FCF17100ADFEE9 /* VehicleListServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8668522FCF17100ADFEE9 /* VehicleListServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +66,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7962986122FCF9E600475EB3 /* RxBlocking.framework in CopyFiles */,
-				7962986222FCF9E600475EB3 /* RxCocoa.framework in CopyFiles */,
-				7962986322FCF9E600475EB3 /* RxRelay.framework in CopyFiles */,
-				7962986422FCF9E600475EB3 /* RxSwift.framework in CopyFiles */,
 				7962986522FCF9E600475EB3 /* RxTest.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,9 +73,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		794C5EA32300BA2E00C10C9D /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		794C5EA52300C08A00C10C9D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		794C6AB422FF831100ACF3E5 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
 		794C6AB622FF83FE00ACF3E5 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PageData_Incomplete.json; sourceTree = "<group>"; };
+		794C738923025D8500094C47 /* VehicleDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDataTableViewCell.swift; sourceTree = "<group>"; };
+		794C738A23025D8500094C47 /* VehicleDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleDataTableViewCell.xib; sourceTree = "<group>"; };
+		794C738D2303642700094C47 /* VehicleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewModel.swift; sourceTree = "<group>"; };
+		794C738F2303916F00094C47 /* VehicleModelWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModelWithImage.swift; sourceTree = "<group>"; };
 		7962985722FCF9CC00475EB3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/Static/RxTest.framework; sourceTree = "<group>"; };
 		7962985822FCF9CC00475EB3 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/Static/RxSwift.framework; sourceTree = "<group>"; };
 		7962985922FCF9CC00475EB3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/Static/RxCocoa.framework; sourceTree = "<group>"; };
@@ -94,9 +96,8 @@
 		79B8665322FCEDDD00ADFEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79B8665522FCEDDD00ADFEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79B8665A22FCEDDD00ADFEE9 /* CarFaxInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarFaxInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79B8665E22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFaxInterviewTests.swift; sourceTree = "<group>"; };
 		79B8666022FCEDDD00ADFEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79B8668522FCF17100ADFEE9 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		79B8668522FCF17100ADFEE9 /* VehicleListServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,16 +116,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				7962985C22FCF9CC00475EB3 /* RxTest.framework in Frameworks */,
-				7962985D22FCF9CC00475EB3 /* RxSwift.framework in Frameworks */,
-				7962985E22FCF9CC00475EB3 /* RxCocoa.framework in Frameworks */,
 				7962985F22FCF9CC00475EB3 /* RxBlocking.framework in Frameworks */,
-				7962986022FCF9CC00475EB3 /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		794C73912303D1D300094C47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				794C6AB622FF83FE00ACF3E5 /* PageData.swift */,
+				794C6AB422FF831100ACF3E5 /* VehicleModel.swift */,
+				794C738F2303916F00094C47 /* VehicleModelWithImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		794C73922303D21200094C47 /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				794C738923025D8500094C47 /* VehicleDataTableViewCell.swift */,
+				794C738A23025D8500094C47 /* VehicleDataTableViewCell.xib */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		794C73932303D23F00094C47 /* Networking Services */ = {
+			isa = PBXGroup;
+			children = (
+				794C5EA52300C08A00C10C9D /* Endpoint.swift */,
+				7968526622FEAAF4004C5E52 /* VehicleListService.swift */,
+			);
+			path = "Networking Services";
+			sourceTree = "<group>";
+		};
+		794C73942303D26100094C47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				794C738D2303642700094C47 /* VehicleListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		79B8663D22FCEDDC00ADFEE9 = {
 			isa = PBXGroup;
 			children = (
@@ -154,10 +188,10 @@
 				79B8665022FCEDDD00ADFEE9 /* Assets.xcassets */,
 				79B8665222FCEDDD00ADFEE9 /* LaunchScreen.storyboard */,
 				79B8665522FCEDDD00ADFEE9 /* Info.plist */,
-				7968526622FEAAF4004C5E52 /* VehicleListService.swift */,
-				794C6AB422FF831100ACF3E5 /* VehicleModel.swift */,
-				794C6AB622FF83FE00ACF3E5 /* PageData.swift */,
-				794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */,
+				794C73932303D23F00094C47 /* Networking Services */,
+				794C73922303D21200094C47 /* UITableViewCells */,
+				794C73942303D26100094C47 /* ViewModels */,
+				794C73912303D1D300094C47 /* Models */,
 			);
 			path = CarFaxInterview;
 			sourceTree = "<group>";
@@ -165,9 +199,10 @@
 		79B8665D22FCEDDD00ADFEE9 /* CarFaxInterviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				79B8665E22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift */,
+				794C6AB822FF954100ACF3E5 /* PageData_Incomplete.json */,
 				79B8666022FCEDDD00ADFEE9 /* Info.plist */,
-				79B8668522FCF17100ADFEE9 /* Sample.swift */,
+				79B8668522FCF17100ADFEE9 /* VehicleListServiceTests.swift */,
+				794C5EA32300BA2E00C10C9D /* MockURLProtocol.swift */,
 			);
 			path = CarFaxInterviewTests;
 			sourceTree = "<group>";
@@ -274,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794C738C23025D8500094C47 /* VehicleDataTableViewCell.xib in Resources */,
 				794C6AB922FF954100ACF3E5 /* PageData_Incomplete.json in Resources */,
 				79B8665422FCEDDD00ADFEE9 /* LaunchScreen.storyboard in Resources */,
 				79B8665122FCEDDD00ADFEE9 /* Assets.xcassets in Resources */,
@@ -299,7 +335,11 @@
 				79B8664A22FCEDDC00ADFEE9 /* AppDelegate.swift in Sources */,
 				794C6AB722FF83FE00ACF3E5 /* PageData.swift in Sources */,
 				794C6AB522FF831100ACF3E5 /* VehicleModel.swift in Sources */,
+				794C5EA62300C08A00C10C9D /* Endpoint.swift in Sources */,
+				794C738E2303642700094C47 /* VehicleListViewModel.swift in Sources */,
+				794C738B23025D8500094C47 /* VehicleDataTableViewCell.swift in Sources */,
 				7968526722FEAAF4004C5E52 /* VehicleListService.swift in Sources */,
+				794C73902303916F00094C47 /* VehicleModelWithImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B8665F22FCEDDD00ADFEE9 /* CarFaxInterviewTests.swift in Sources */,
-				79B8668622FCF17100ADFEE9 /* Sample.swift in Sources */,
+				794C5EA42300BA2E00C10C9D /* MockURLProtocol.swift in Sources */,
+				79B8668622FCF17100ADFEE9 /* VehicleListServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2VHL4Z5KN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
@@ -472,6 +513,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.depaul.CarFaxInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -484,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2VHL4Z5KN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
@@ -493,6 +536,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.depaul.CarFaxInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -517,6 +561,7 @@
 					"@loader_path/Frameworks",
 					"$(SRCROOT)/Carthage/Build/iOS",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.depaul.CarFaxInterviewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -542,6 +587,7 @@
 					"@loader_path/Frameworks",
 					"$(SRCROOT)/Carthage/Build/iOS",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.depaul.CarFaxInterviewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
