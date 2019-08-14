@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: VehicleDataTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: VehicleDataTableViewCell.identifier)
+        tableView.allowsSelection = false
         
         vehicleListViewModel.fetchListOfVehicles()
             .concatMap{ [weak self] (models: [VehicleModel]) -> Observable<[VehicleModelWithImage]> in
