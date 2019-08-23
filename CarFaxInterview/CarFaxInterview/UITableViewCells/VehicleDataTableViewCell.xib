@@ -23,7 +23,7 @@
                         <rect key="frame" x="20" y="0.0" width="876" height="727.5"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mpb-EN-oj8">
-                                <rect key="frame" x="10" y="0.0" width="856" height="727.5"/>
+                                <rect key="frame" x="10" y="0.0" width="856" height="717.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xLd-nq-aN1">
                                         <rect key="frame" x="0.0" y="0.0" width="856" height="174.5"/>
@@ -41,7 +41,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eT5-L2-lGw">
-                                        <rect key="frame" x="0.0" y="245.5" width="856" height="482"/>
+                                        <rect key="frame" x="0.0" y="245.5" width="856" height="472"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
@@ -55,7 +55,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Mpb-EN-oj8" firstAttribute="leading" secondItem="s7U-aV-tc9" secondAttribute="leading" constant="10" id="BeZ-Jh-BEg"/>
-                            <constraint firstAttribute="bottom" secondItem="Mpb-EN-oj8" secondAttribute="bottom" id="JFY-Wt-rum"/>
+                            <constraint firstAttribute="bottom" secondItem="Mpb-EN-oj8" secondAttribute="bottom" constant="10" id="JFY-Wt-rum"/>
                             <constraint firstAttribute="trailing" secondItem="Mpb-EN-oj8" secondAttribute="trailing" constant="10" id="VqL-oV-ASA"/>
                             <constraint firstItem="Mpb-EN-oj8" firstAttribute="top" secondItem="s7U-aV-tc9" secondAttribute="top" id="feA-fd-5za"/>
                         </constraints>

@@ -17,8 +17,24 @@ class ViewController: UIViewController {
     private let vehicleListViewModel: VehicleListViewable = VehicleListViewModel()
     private let bag = DisposeBag()
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+        navigationController?.navigationBar.barTintColor = .blue
+
+    }
+    
+//    override var preferredStatusBarStyle: UIStatusBarStyle {
+//        return .lightContent
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        title = "Car Fax Interview Assignment"
+        
+        
         tableView.register(UINib(nibName: VehicleDataTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: VehicleDataTableViewCell.identifier)
         tableView.allowsSelection = false
         

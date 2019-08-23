@@ -60,6 +60,8 @@ class VehicleDataTableViewCell: UITableViewCell, TableViewCellIdentifiable {
         containerView.layer.cornerRadius = 10
         if let image = vehicleModel.image {
             vehicleImage?.image = image
+        } else {
+            vehicleImage?.image = nil
         }
     }
 }
